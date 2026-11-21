@@ -9,6 +9,7 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "test": "tsx --test tests/*.test.ts",
+    "start": "npm run start:web",
     "start:web": "tsx src/server.ts",
     "start:worker": "tsx src/worker.ts",
     "migrate": "tsx scripts/migrate.ts",
